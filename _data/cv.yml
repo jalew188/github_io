@@ -2,96 +2,121 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Wen-Feng Zeng
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 2nd Feb. 1988
+    - name: Gender
+      value: Male
+    - name: Contact
+      value: wzeng@biochem.mpg.de
 
 - title: Education
   type: time_table
   contents:
+    - title: Bachelor of Science
+      institution: Xidian University
+      year: 2006 - 2010
+      description:
+        - Software engineering.
+    
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Institute of Computing Technology, Chinese Academy of Sciences
+      year: 2010 - 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Software and algorithm design for mass spectrometry-based intact glycoprotein search engine.
+        - Machine learning and deep learning for tandem mass spectrum prediction for peptides.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Assistant Researcher (non-Principle Investigator)
+      institution: Institute of Computing Technology, Chinese Academy of Sciences
+      year: 2017 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervising pGlyco3 project -- algorithms, software and machine learning models for intact glycoprotein search engine.
+        - Supervising pDeep3 project -- deep learning and transfer learning for proteomics.
+    - title: Post-doc
+      institution: Max-Planck Institute of Biochemistry, Martinsried, Germany
+      year: 2020 - now
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Building a flexible deep learning framework for proteomics and its applications.
+        - Designing and building software infrastructure for the AlphaX ecosystem for proteomics.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/MannLabs/alphapeptdeep">AlphaPeptDeep</a>
+      year: 2021 - now
+      description: A flexible framework to fast develop deep learning models for protein and post-translational modification anslysis.
+    - title: <a href="https://github.com/MannLabs/peptdeep-HLA">PeptDeep-HLA</a>
+      year: 2022
+      description: MHC-binding/HLA peptide prediction from proteome sequences using deep learning based on AlphaPeptDeep.
+    - title: <a href="https://github.com/MannLabs/alphabase">AlphaBase</a>
+      year: 2021 - now
+      description: Software infrastructure for the AlphaX ecosystem for proteomics.
+    - title: <a href="https://github.com/MannLabs/alpharaw">AlphaRaw</a>
+      year: 2021 - now
+      description: MS data readers for different instruments and vendors.
+    - title: <a href="https://github.com/pFindStudio/pDeep">pDeep1 and pDeep2</a>, <a href="https://github.com/pFindStudio/pDeep3">pDeep3</a>
+      year: 2015 - 2021
+      description: Tandem mass spectrum prediction for peptides with deep learning.
+
+- title: Free Software Projects
+  type: time_table
+  contents:
+    - title: <a href="http://pfind.org/software/pGlyco/index.html">pGlyco</a> (<a href="https://github.com/pFindStudio/pGlyco3/releases/">GitHub</a>)
+      year: 2015 - 2021
+      description: Search engines for intact glycoproteins.
+    - title: <a href="https://github.com/expellir-arma/pGlycoQuant/releases">pGlycoQuant</a>
+      year: 2019 - 2021
+      description: Deep learning-based glycoprotein quantification.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2016
+      items: Institute Director's Excellent Student Award, Institute of Computing Technology
+    - year: 2017
+      items: Outstanding Researcher, Institute of Computing Technology
+    - year: 2018
+      items: Excellent Youth Report Award, 10th CNHUPO Annual Congress
+    - year: 2019
+      items: Technological Invention Award, team first prize, China Computer Federation
+    - year: 2021
+      items: "Rising Stars in Proteomics and Metabolomics: 40 under 40 (<a href='https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01026?ref=risingstars2021'>link</a>)"
+    - year: 2022
+      items: Outstanding Employee, Max-Planck Institute of Biochemistry
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Machine learning and deep learning for proteomics and immunopeptidomics
+    - Architecture and pattern design for proteomic software
+    - Algorithm design for proteomics and glycoproteomics
+
+- title: Google Scholar
+  contents: <a href="https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en">https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en</a>
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - "<u><b>Wen-Feng Zeng</b></u>, Xie-Xuan Zhou, Sander Willems, Constantin Ammar, Maria Wahle, Isabell Bludau, Eugenia Voytik, Maximillian T. Strauss & Matthias Mann✉. AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics. <i>Nature Communications</i> 13, 7238 (2022). <a href='https://doi.org/10.1038/s41467-022-34904-3'>https://doi.org/10.1038/s41467-022-34904-3</a>"
+        - "Siyuan Kong#, Pengyun Gong#, <u><b>Wen-Feng Zeng</b></u># (co-first), Biyun Jiang# et al. pGlycoQuant with a deep residual network for quantitative glycoproteomics at intact glycopeptide level. <i>Nature Communications</i> 13, 7539 (2022). <a href='https://doi.org/10.1038/s41467-022-35172-x'>https://doi.org/10.1038/s41467-022-35172-x</a>"
+    - year: 2021
+      items:
+        - "<u><b>Wen-Feng Zeng✉</b></u>, Wei-Qian Cao, Ming-Qi Liu, Si-Min He, Peng-Yuan Yang. Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3. <i>Nature Methods</i> 18, 1515-1523 (2021). <a href='https://doi.org/10.1038/s41592-021-01306-0'>https://doi.org/10.1038/s41592-021-01306-0</a>"
+        - "Matthias Mann✉, Chanchal Kumar✉, <u><b>Wen-Feng Zeng✉</b></u>, Maximilian T. Strauss✉. Artificial intelligence for proteomics and biomarker discovery. <i>Cell Systems</i> 12 (8), 759-770 (2021). <a href='https://doi.org/10.1016/j.cels.2021.06.006'>https://doi.org/10.1016/j.cels.2021.06.006</a>"
+        - "Ching Tarn, <u><b>Wen-Feng Zeng✉</b></u>. pDeep3: Toward More Accurate Spectrum Prediction with Fast Few-Shot Learning. <i>Analytical Chemistry</i> 93 (14), 5815-5822. <a href='https://doi.org/10.1021/acs.analchem.0c05427'>https://doi.org/10.1021/acs.analchem.0c05427</a>"
+    - year: 2020
+      items:
+        - "Bo Wen#✉, <u><b>Wen-Feng Zeng</b></u># (co-first), Yuxing Liao, Zhiao Shi, Sara R. Savage, Wen Jiang, Bing Zhang✉. Deep Learning in Proteomics. <i>Proteomics</i> 20 (21-22), 1900335. <a href='https://doi.org/10.1002/pmic.201900335'>https://doi.org/10.1002/pmic.201900335</a>"
+    - year: 2019
+      items:
+        - "<u><b>Wen-Feng Zeng✉</b></u>, Xie-Xuan Zhou, Wen-Jing Zhou, Hao Chi, Jianfeng Zhan, and Si-Min He. MS/MS Spectrum Prediction for Modified Peptides Using pDeep2 Trained by Transfer Learning. <i>Analytical Chemistry</i> 91 (15), 9724-9731 (2019). <a href='https://doi.org/10.1021/acs.analchem.9b01262'>https://doi.org/10.1021/acs.analchem.9b01262</a>"
+    - year: 2017
+      items: 
+        - "Ming-Qi Liu#, <u><b>Wen-Feng Zeng</b></u># (co-first), Pan Fang#, Wei-Qian Cao#, Cao Liu# et al. pGlyco 2.0 enables precision N-glycoproteomics with comprehensive quality control and one-step mass spectrometry for intact glycopeptide identification. <i>Nature Communications</i>, 438 (2017). <a href='https://doi.org/10.1038/s41467-017-00535-2'>https://doi.org/10.1038/s41467-017-00535-2</a>"
+        - "Xie-Xuan Zhou#, <u><b>Wen-Feng Zeng</b></u># (co-first), Hao Chi et al. pDeep: Predicting MS/MS Spectra of Peptides with Deep Learning. <i>Analytical Chemistry</i> 89 (23), 12690-12697. <a href='https://doi.org/10.1021/acs.analchem.7b02566'>https://doi.org/10.1021/acs.analchem.7b02566</a>"
+
