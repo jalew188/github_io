@@ -2,13 +2,15 @@
   type: map
   contents:
     - name: Full Name
-      value: Wen-Feng Zeng
+      value: Dr. <u>Wen-Feng Zeng</u>
     - name: Date of Birth
-      value: 2nd Feb. 1988
+      value: February 2nd, 1988
     - name: Gender
       value: Male
     - name: Contact
       value: wzeng@biochem.mpg.de
+    - name: Address
+      value: Am Klopferspitz 18, 82152 Martinsried, Germany
 
 - title: Education
   type: time_table
@@ -17,59 +19,71 @@
       institution: Xidian University
       year: 2006 - 2010
       description:
-        - Software engineering.
+        - Software engineering
     
     - title: PhD
       institution: Institute of Computing Technology, Chinese Academy of Sciences
       year: 2010 - 2017
       description:
-        - Software and algorithm design for mass spectrometry-based intact glycoprotein search engine.
-        - Machine learning and deep learning for tandem mass spectrum prediction for peptides.
+        - Software and algorithm design for MS-based glycoproteomics
+        - Machine learning and deep learning for tandem mass spectrum prediction for peptides
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Assistant Researcher (non-Principle Investigator)
       institution: Institute of Computing Technology, Chinese Academy of Sciences
       year: 2017 - 2020
       description:
-        - Supervising pGlyco3 project -- algorithms, software and machine learning models for intact glycoprotein search engine.
-        - Supervising pDeep3 project -- deep learning and transfer learning for proteomics.
-    - title: Post-doc
+        - Leading pGlyco3 project -- algorithms, software and machine learning models for glycoproteomics
+        - Leading pDeep3 project -- deep learning and transfer learning for tandem mass spectrum prediction for peptides
+    - title: Senior Postdoc
       institution: Max-Planck Institute of Biochemistry, Martinsried, Germany
-      year: 2020 - now
+      year: 2020 - 2023
       description:
-        - Building a flexible deep learning framework for proteomics and its applications.
-        - Designing and building software infrastructure for the AlphaX ecosystem for proteomics.
+        - Building a flexible deep learning framework for proteomics and its applications
+        - Designing and building software infrastructure for the AlphaX ecosystem for proteomics
+    - title: Project Leader
+      institution: Max-Planck Institute of Biochemistry, Martinsried, Germany
+      year: 2023 - now
+      description:
+        - Leading project of "Deep learning and its applications in immunopeptidomics"
+
+- title: Research Interests
+  type: list
+  contents:
+    - Machine learning and deep learning for proteomics and glycoproteomics
+    - Architecture and pattern design for proteomic software
+    - Algorithm design for retrieval systems of proteomics and glycoproteomics
+
+- title: Google Scholar
+  contents: <a href="https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en">https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en</a>
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/MannLabs/alphapeptdeep">AlphaPeptDeep</a>
       year: 2021 - now
-      description: A flexible framework to fast develop deep learning models for protein and post-translational modification anslysis.
+      description: A deep learning framework for proteomics
     - title: <a href="https://github.com/MannLabs/peptdeep-HLA">PeptDeep-HLA</a>
       year: 2022
-      description: MHC-binding/HLA peptide prediction from proteome sequences using deep learning based on AlphaPeptDeep.
+      description: MHC/HLA-binding peptide prediction from protein sequences using deep learning based on AlphaPeptDeep
     - title: <a href="https://github.com/MannLabs/alphabase">AlphaBase</a>
       year: 2021 - now
-      description: Software infrastructure for the AlphaX ecosystem for proteomics.
+      description: Software infrastructure for the AlphaX ecosystem for proteomics
     - title: <a href="https://github.com/MannLabs/alpharaw">AlphaRaw</a>
       year: 2021 - now
-      description: MS data readers for different instruments and vendors.
+      description: MS data processing for different instruments and vendors
     - title: <a href="https://github.com/pFindStudio/pDeep">pDeep1 and pDeep2</a>, <a href="https://github.com/pFindStudio/pDeep3">pDeep3</a>
       year: 2015 - 2021
-      description: Tandem mass spectrum prediction for peptides with deep learning.
+      description: Tandem mass spectrum prediction for peptides with deep learning
 
 - title: Free Software Projects
   type: time_table
   contents:
     - title: <a href="http://pfind.org/software/pGlyco/index.html">pGlyco</a> (<a href="https://github.com/pFindStudio/pGlyco3/releases/">GitHub</a>)
       year: 2015 - 2021
-      description: Search engines for intact glycoproteins.
-    - title: <a href="https://github.com/expellir-arma/pGlycoQuant/releases">pGlycoQuant</a>
-      year: 2019 - 2021
-      description: Deep learning-based glycoprotein quantification.
+      description: Computational platform to analyze intact glycopeptides/glycoproteins
 
 - title: Honors and Awards
   type: time_table
@@ -85,38 +99,46 @@
     - year: 2021
       items: "Rising Stars in Proteomics and Metabolomics: 40 under 40 (<a href='https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01026?ref=risingstars2021'>link</a>)"
     - year: 2022
-      items: Outstanding Employee, Max-Planck Institute of Biochemistry
+      items: Outstanding Researcher in Mann lab, Max-Planck Institute of Biochemistry
 
-- title: Research Interests
-  type: list
-  contents:
-    - Machine learning and deep learning for proteomics and immunopeptidomics
-    - Architecture and pattern design for proteomic software
-    - Algorithm design for proteomics and glycoproteomics
-
-- title: Google Scholar
-  contents: <a href="https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en">https://scholar.google.com/citations?user=j5TT5lEAAAAJ&hl=en</a>
-
-- title: Selected Publications
+- title: Publications
   type: time_table
   contents:
     - year: 2022
       items:
         - "<u><b>Wen-Feng Zeng</b></u>, Xie-Xuan Zhou, Sander Willems, Constantin Ammar, Maria Wahle, Isabell Bludau, Eugenia Voytik, Maximillian T. Strauss & Matthias Mann✉. AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics. <i>Nature Communications</i> 13, 7238 (2022). <a href='https://doi.org/10.1038/s41467-022-34904-3'>https://doi.org/10.1038/s41467-022-34904-3</a>"
-        - "Siyuan Kong#, Pengyun Gong#, <u><b>Wen-Feng Zeng</b></u># (co-first), Biyun Jiang# et al. pGlycoQuant with a deep residual network for quantitative glycoproteomics at intact glycopeptide level. <i>Nature Communications</i> 13, 7539 (2022). <a href='https://doi.org/10.1038/s41467-022-35172-x'>https://doi.org/10.1038/s41467-022-35172-x</a>"
+        - "Siyuan Kong#, Pengyun Gong#, <u><b>Wen-Feng Zeng</b></u># (contributed equally), Biyun Jiang# et al. pGlycoQuant with a deep residual network for quantitative glycoproteomics at intact glycopeptide level. <i>Nature Communications</i> 13, 7539 (2022). <a href='https://doi.org/10.1038/s41467-022-35172-x'>https://doi.org/10.1038/s41467-022-35172-x</a>"
+        - "Rui-Xiang Sun, Rui-Min Wang, Lan Luo, Chao Liu, Hao Chi, <u>Wen-Feng Zeng</u>, Si-Min He. Accurate Proteoform Identification and Quantitation Using pTop 2.0. <i>Proteoform Identification: Methods and Protocols</i> pp 105-129 (2022)."
+        - "Isabell Bludau, Sander Willems, <u>Wen-Feng Zeng</u>, Maximilian T Strauss, Fynn M Hansen, Maria C Tanzer, Ozge Karayel, Brenda A Schulman, Matthias Mann. The structural context of posttranslational modifications at a proteome-wide scale. <i>PLoS Biology</i> 20 (5), e3001636 (2022). <a href='https://doi.org/10.1371/journal.pbio.3001636'>https://doi.org/10.1371/journal.pbio.3001636</a>"
+        - "Eugenia Voytik, Patricia Skowronek, <u>Wen-Feng Zeng</u>, Maria C Tanzer, Andreas-David Brunner, Marvin Thielert, Maximilian T Strauss, Sander Willems, Matthias Mann. AlphaViz: Visualization and validation of critical proteomics data directly at the raw data level. <i>bioRxiv preprint</i> (2022)."
+        - "Lisa Schweizer, Tina Schaller, Maximilian Zwiebel, Ozge Karayel, Johannes Bruno Mueller-Reif, <u>Wen-Feng Zeng</u>, Sebastian Dintner, Klaus Hirschbuehl, Bruno Maerkl, Rainer Claus, Matthias Mann. <i>medRxiv preprint</i> (2022)."
+        - "Marvin Thielert, Corazon Ericka Mae Itang, Constantin Ammar, Florian A Schober, Isabell Bludau, Patricia Skowronek, Maria Wahle, <u>Wen-Feng Zeng</u>, Xie-Xuan Zhou, Andreas-David Brunner, Sabrina Richter, Fabian J Theis, Martin Steger, Matthias Mann. <i>bioRxiv preprint</i> (2022)."
     - year: 2021
       items:
         - "<u><b>Wen-Feng Zeng✉</b></u>, Wei-Qian Cao, Ming-Qi Liu, Si-Min He, Peng-Yuan Yang. Precise, fast and comprehensive analysis of intact glycopeptides and modified glycans with pGlyco3. <i>Nature Methods</i> 18, 1515-1523 (2021). <a href='https://doi.org/10.1038/s41592-021-01306-0'>https://doi.org/10.1038/s41592-021-01306-0</a>"
         - "Matthias Mann✉, Chanchal Kumar✉, <u><b>Wen-Feng Zeng✉</b></u>, Maximilian T. Strauss✉. Artificial intelligence for proteomics and biomarker discovery. <i>Cell Systems</i> 12 (8), 759-770 (2021). <a href='https://doi.org/10.1016/j.cels.2021.06.006'>https://doi.org/10.1016/j.cels.2021.06.006</a>"
         - "Ching Tarn, <u><b>Wen-Feng Zeng✉</b></u>. pDeep3: Toward More Accurate Spectrum Prediction with Fast Few-Shot Learning. <i>Analytical Chemistry</i> 93 (14), 5815-5822. <a href='https://doi.org/10.1021/acs.analchem.0c05427'>https://doi.org/10.1021/acs.analchem.0c05427</a>"
+        - "Zhen-Lin Chen, Peng-Zhi Mao, <u>Wen-Feng Zeng</u>, Hao Chi, Si-Min He. PDeepXL: MS/MS spectrum prediction for cross-linked peptide pairs by deep learning. <i>Journal of Proteome Research</i> 20 (5), 2570-2582 (2021). <a href='https://doi.org/10.1021/acs.jproteome.0c01004'>https://doi.org/10.1021/acs.jproteome.0c01004</a>"
+        - "Wen Jiang, Bo Wen, Kai Li, <u>Wen-Feng Zeng</u>, Felipe da Veiga Leprevost, Jamie Moon, Vladislav A Petyuk, Nathan J Edwards, Tao Liu, Alexey I Nesvizhskii, Bing Zhang. Deep-learning-derived evaluation metrics enable effective benchmarking of computational tools for phosphopeptide identification. <i>Molecular & Cellular Proteomics</i> 20, 100171, 2021. <a href='https://doi.org/10.1016/j.mcpro.2021.100171'>https://doi.org/10.1016/j.mcpro.2021.100171</a>"
+        - "Maximilian T Strauss, Isabell Bludau, <i>Wen-Feng Zeng</i>, Eugenia Voytik, Constantin Ammar, Julia Schessner, Rajesh Ilango, Michelle Gill, Florian Meier, Sander Willems, Matthias Mann. AlphaPept, a modern and open framework for MS-based proteomics. <i>bioRxiv preprint</i> (2021)."
     - year: 2020
       items:
-        - "Bo Wen#✉, <u><b>Wen-Feng Zeng</b></u># (co-first), Yuxing Liao, Zhiao Shi, Sara R. Savage, Wen Jiang, Bing Zhang✉. Deep Learning in Proteomics. <i>Proteomics</i> 20 (21-22), 1900335. <a href='https://doi.org/10.1002/pmic.201900335'>https://doi.org/10.1002/pmic.201900335</a>"
+        - "Bo Wen#✉, <u><b>Wen-Feng Zeng</b></u># (contributed equally), Yuxing Liao, Zhiao Shi, Sara R. Savage, Wen Jiang, Bing Zhang✉. Deep Learning in Proteomics. <i>Proteomics</i> 20 (21-22), 1900335. <a href='https://doi.org/10.1002/pmic.201900335'>https://doi.org/10.1002/pmic.201900335</a>"
     - year: 2019
       items:
         - "<u><b>Wen-Feng Zeng✉</b></u>, Xie-Xuan Zhou, Wen-Jing Zhou, Hao Chi, Jianfeng Zhan, and Si-Min He. MS/MS Spectrum Prediction for Modified Peptides Using pDeep2 Trained by Transfer Learning. <i>Analytical Chemistry</i> 91 (15), 9724-9731 (2019). <a href='https://doi.org/10.1021/acs.analchem.9b01262'>https://doi.org/10.1021/acs.analchem.9b01262</a>"
+        - "Zhen-Lin Chen, Jia-Ming Meng, Yong Cao, Ji-Li Yin, Run-Qian Fang, Sheng-Bo Fan, Chao Liu, <u>Wen-Feng Zeng</u>, Yue-He Ding, Dan Tan, Long Wu, Wen-Jing Zhou, Hao Chi, Rui-Xiang Sun, Meng-Qiu Dong, Si-Min He. A high-speed search engine pLink 2 with systematic evaluation for proteome-scale identification of cross-linked peptides. <i>Nature communications</i> 10 (1), 3404. <a href='https://doi.org/10.1038/s41467-019-11337-z'>https://doi.org/10.1038/s41467-019-11337-z</a>"
+        - "Hao Yang, Hao Chi, <u>Wen-Feng Zeng</u>, Wen-Jing Zhou, Si-Min He. pNovo 3: precise de novo peptide sequencing using a learning-to-rank framework. <i>Bioinformatics</i> 35 (14), i183-i190. <a href='https://doi.org/10.1093/bioinformatics/btz366'>https://doi.org/10.1093/bioinformatics/btz366</a>"
+        - "Wen-Jing Zhou, Hao Yang, <u>Wen-Feng Zeng</u>, Kun Zhang, Hao Chi, Si-Min He. pValid: Validation beyond the target-decoy approach for peptide identification in shotgun proteomics. <i>Journal of proteome research</i> 18 (7), 2747-2758. <a href='https://doi.org/10.1021/acs.jproteome.8b00993'>https://doi.org/10.1021/acs.jproteome.8b00993</a>"
+        - "Hao Yang, Yan-Chang Li, Ming-Zhi Zhao, Fei-Lin Wu, Xi Wang, Wei-Di Xiao, Yi-Hao Wang, Jun-Ling Zhang, Fu-Qiang Wang, Feng Xu, <u>Wen-Feng Zeng</u>, Christopher M Overall, Si-Min He, Hao Chi, Ping Xu. Precision De Novo Peptide Sequencing Using Mirror Proteases of Ac-LysargiNase and Trypsin for Large-scale Proteomics*[S]. <i>Molecular & Cellular Proteomics</i> 18 (4), 773-785. <a href='https://doi.org/10.1074/mcp.TIR118.000918'>https://doi.org/10.1074/mcp.TIR118.000918</a>"
+    - year: 2018
+      items:
+        - "Hao Chi, Chao Liu, Hao Yang, <u>Wen-Feng Zeng</u>, Long Wu, Wen-Jing Zhou, Rui-Min Wang, Xiu-Nan Niu, Yue-He Ding, Yao Zhang, Zhao-Wei Wang, Zhen-Lin Chen, Rui-Xiang Sun, Tao Liu, Guang-Ming Tan, Meng-Qiu Dong, Ping Xu, Pei-Heng Zhang, Si-Min He. Comprehensive identification of peptides in tandem mass spectra using an efficient open search engine. <i>Nature Biotechnology</i> 36 (11), 1059-1061. <a href='https://doi.org/10.1038/nbt.4236'>https://doi.org/10.1038/nbt.4236</a>"
     - year: 2017
       items: 
-        - "Ming-Qi Liu#, <u><b>Wen-Feng Zeng</b></u># (co-first), Pan Fang#, Wei-Qian Cao#, Cao Liu# et al. pGlyco 2.0 enables precision N-glycoproteomics with comprehensive quality control and one-step mass spectrometry for intact glycopeptide identification. <i>Nature Communications</i>, 438 (2017). <a href='https://doi.org/10.1038/s41467-017-00535-2'>https://doi.org/10.1038/s41467-017-00535-2</a>"
-        - "Xie-Xuan Zhou#, <u><b>Wen-Feng Zeng</b></u># (co-first), Hao Chi et al. pDeep: Predicting MS/MS Spectra of Peptides with Deep Learning. <i>Analytical Chemistry</i> 89 (23), 12690-12697. <a href='https://doi.org/10.1021/acs.analchem.7b02566'>https://doi.org/10.1021/acs.analchem.7b02566</a>"
+        - "Ming-Qi Liu#, <u><b>Wen-Feng Zeng</b></u># (contributed equally), Pan Fang#, Wei-Qian Cao#, Cao Liu# et al. pGlyco 2.0 enables precision N-glycoproteomics with comprehensive quality control and one-step mass spectrometry for intact glycopeptide identification. <i>Nature Communications</i>, 438 (2017). <a href='https://doi.org/10.1038/s41467-017-00535-2'>https://doi.org/10.1038/s41467-017-00535-2</a>"
+        - "Xie-Xuan Zhou#, <u><b>Wen-Feng Zeng</b></u># (contributed equally), Hao Chi et al. pDeep: Predicting MS/MS Spectra of Peptides with Deep Learning. <i>Analytical Chemistry</i> 89 (23), 12690-12697 (2017). <a href='https://doi.org/10.1021/acs.analchem.7b02566'>https://doi.org/10.1021/acs.analchem.7b02566</a>"
+        - "Hao Yang, Hao Chi, Wen-Jing Zhou, <u>Wen-Feng Zeng</u>, Kun He, Chao Liu, Rui-Xiang Sun, Si-Min He. Open-pNovo: de novo peptide sequencing with thousands of protein modifications. <i>Journal of proteome research</i> 16 (2), 645-654. <a href='https://doi.org/10.1021/acs.jproteome.6b00716'>https://doi.org/10.1021/acs.jproteome.6b00716</a>"
+    - year: 2016
+      items: "<u><b>Wen-Feng Zeng</b></u>#, Ming-Qi Liu#, Yang Zhang#, Jian-Qiang Wu# et al. pGlyco: a pipeline for the identification of intact N-glycopeptides by using HCD- and CID-MS/MS and MS3. <i>Scitific Reports</i> 6, 25102 (2016). <a href='https://doi.org/10.1038/srep25102'>https://doi.org/10.1038/srep25102</a>"
 
